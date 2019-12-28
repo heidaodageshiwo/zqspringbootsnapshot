@@ -2,18 +2,10 @@ package com.github.heidaodageshiwo.zqspringbootsnapshot.util;
 
 import java.util.Random;
 
-/**
- * 字符串工具类
- * @author 
- *
- */
+
 public class StringUtil {
 
-	/**
-	 * 判断是否是空
-	 * @param str
-	 * @return
-	 */
+
 	public static boolean isEmpty(String str){
 		if(str==null||"".equals(str.trim())){
 			return true;
@@ -21,12 +13,7 @@ public class StringUtil {
 			return false;
 		}
 	}
-	
-	/**
-	 * 判断是否不是空
-	 * @param str
-	 * @return
-	 */
+
 	public static boolean isNotEmpty(String str){
 		if((str!=null)&&!"".equals(str.trim())){
 			return true;
@@ -35,11 +22,7 @@ public class StringUtil {
 		}
 	}
 	
-	/**
-     * 生成由[A-Z,0-9]生成的随机字符串
-     * @param length  欲生成的字符串长度
-     * @return
-     */
+
     public static String getRandomString(int length){
         Random random = new Random();
 
