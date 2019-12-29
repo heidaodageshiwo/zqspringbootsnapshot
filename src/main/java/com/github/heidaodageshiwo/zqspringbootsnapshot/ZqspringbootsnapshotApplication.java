@@ -1,3 +1,4 @@
+/*
 package com.github.heidaodageshiwo.zqspringbootsnapshot;
 
 import org.springframework.boot.SpringApplication;
@@ -11,3 +12,4 @@ public class ZqspringbootsnapshotApplication {
     }
 
 }
+*/
